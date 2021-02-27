@@ -959,3 +959,39 @@ java.lang.Exception: The project description file (.project) for 'timInOut' is m
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-02-20 15:47:06.609
 !MESSAGE Indexed 'timInOut' (21 sources, 97 headers) in 1,54 sec: 8.234 declarations; 34.098 references; 6 unresolved inclusions; 311 syntax errors; 1.273 unresolved names (%2,9)
+!SESSION 2021-02-21 21:49:39.624 -----------------------------------------------
+eclipse.buildId=Version 1.5.1
+java.version=1.8.0_272
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-02-21 21:49:50.681
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-02-21 21:49:50.759
+!MESSAGE Log4j initialized with config file C:\Users\lvvnt\Documents\GitHub\LeventRepo\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-02-21 21:49:54.268
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-02-21 21:49:54.849
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+!SESSION 2021-02-21 22:31:16.064 -----------------------------------------------
+eclipse.buildId=Version 1.5.1
+java.version=1.8.0_272
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-02-21 22:31:20.305
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-02-21 22:31:20.361
+!MESSAGE Log4j initialized with config file C:\Users\lvvnt\Documents\GitHub\LeventRepo\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-02-21 22:31:23.376
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-02-21 22:31:23.957
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
