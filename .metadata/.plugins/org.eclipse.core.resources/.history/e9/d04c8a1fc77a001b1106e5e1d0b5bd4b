@@ -97,7 +97,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  buton=!HAL_GPIO_ReadPin(BUTON_GPIO_Port, BUTON_Pin);
+	  buton=!HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13);
 	  adc=HAL_ADC_GetValue(&hadc1);
 	  HAL_Delay(500);
     /* USER CODE END WHILE */

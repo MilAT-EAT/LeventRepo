@@ -1,7 +1,7 @@
-22:44:00 **** Clean-only build of configuration Debug for project f103rbAdc ****
+22:48:18 **** Clean-only build of configuration Debug for project f103rbAdc ****
 make -j16 clean 
 rm -rf *
  
 
-22:44:01 Build Finished. 0 errors, 0 warnings. (took 200ms)
+22:48:19 Build Finished. 0 errors, 0 warnings. (took 185ms)
 

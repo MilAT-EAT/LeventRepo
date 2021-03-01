@@ -1,4 +1,4 @@
-22:44:00 **** Clean-only build of configuration Debug for project f103rbAdc ****
+22:48:48 **** Clean-only build of configuration Debug for project g071rbAdc ****
 make -j16 clean 
 rm -rf *
  

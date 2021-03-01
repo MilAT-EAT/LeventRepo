@@ -97,7 +97,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  buton=!HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13);
+	  buton=!HAL_GPIO_ReadPin(BUTON_GPIO_Port, BUTON_Pin);
 	  adc=HAL_ADC_GetValue(&hadc1);
 	  HAL_Delay(500);
     /* USER CODE END WHILE */
@@ -210,11 +210,11 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
-  /*Configure GPIO pin : PC13 */
-  GPIO_InitStruct.Pin = GPIO_PIN_13;
+  /*Configure GPIO pin : BUTON_Pin */
+  GPIO_InitStruct.Pin = BUTON_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+  HAL_GPIO_Init(BUTON_GPIO_Port, &GPIO_InitStruct);
 
 }
 
