@@ -44,6 +44,7 @@ TIM_HandleTypeDef htim2;
 TIM_HandleTypeDef htim4;
 
 /* USER CODE BEGIN PV */
+/* tanımlamalar */
 uint32_t geciciGirisVerisi, girisSaklama;
 /* USER CODE END PV */
 
@@ -92,7 +93,9 @@ int main(void)
   MX_TIM4_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
+  /* timer output compare başlatma */
   HAL_TIM_OC_Start(&htim4, TIM_CHANNEL_1);
+  /* timer input capture interrupt başlatma */
   HAL_TIM_IC_Start_IT(&htim2, TIM_CHANNEL_1);
   /* USER CODE END 2 */
 
@@ -100,6 +103,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  /* veri saklama */
 	  girisSaklama=__HAL_TIM_GetCounter(&htim2);
     /* USER CODE END WHILE */
 
@@ -260,6 +264,7 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+/* input capture fonksiyonu için callback fonksiyonu */
 void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
 {
 	if(htim->Instance == TIM2)

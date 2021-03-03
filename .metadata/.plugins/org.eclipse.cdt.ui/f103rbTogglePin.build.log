@@ -1,7 +1,7 @@
-19:52:17 **** Clean-only build of configuration Debug for project f103rbTogglePin ****
+12:15:13 **** Clean-only build of configuration Debug for project f103rbTogglePin ****
 make -j16 clean 
 rm -rf *
  
 
-19:52:17 Build Finished. 0 errors, 0 warnings. (took 171ms)
+12:15:13 Build Finished. 0 errors, 0 warnings. (took 177ms)
 

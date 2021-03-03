@@ -42,6 +42,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+/* sayım yapmak için değer tanımı */
 int deger=0;
 /* USER CODE END PV */
 
@@ -49,6 +50,7 @@ int deger=0;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
+/* özel fonksiyon tanımı */
 void gpioled(void);
 /* USER CODE END PFP */
 
@@ -93,7 +95,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  /* fonksiyon çağırma */
 	  gpioled();
+	  /* bekleme süresi */
 	  HAL_Delay(1000);
     /* USER CODE END WHILE */
 
@@ -167,9 +171,12 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+/* fonksiyon tanımı */
 void gpioled(void)
 {
+	/* gpio kullanarak çıkış değiştirme */
 	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+	/* veriyi arttırma deger = deger + 1 yerine geçer */
 	deger++;
 }
 /* USER CODE END 4 */
