@@ -1,7 +1,7 @@
-15:26:30 **** Clean-only build of configuration Debug for project g071rbFunctionPin ****
+12:15:20 **** Clean-only build of configuration Debug for project g071rbFunctionPin ****
 make -j16 clean 
 rm -rf *
  
 
-15:26:30 Build Finished. 0 errors, 0 warnings. (took 185ms)
+12:15:20 Build Finished. 0 errors, 0 warnings. (took 169ms)
 

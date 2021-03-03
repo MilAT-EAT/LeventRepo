@@ -93,7 +93,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  /* gpio kullanarak çıkış düzenleme */
 	  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+	  /* bekleme */
 	  HAL_Delay(1000);
     /* USER CODE END WHILE */
 

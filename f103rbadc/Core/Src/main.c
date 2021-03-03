@@ -43,7 +43,9 @@
 ADC_HandleTypeDef hadc1;
 
 /* USER CODE BEGIN PV */
+/* adc okuması yapmak için gereken değerin tanımı */
 uint16_t adc;
+/* mavi buton okuması için gereken değerin tanımı */
 int buton;
 /* USER CODE END PV */
 
@@ -97,8 +99,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  /* gpio kullanarak buton okuma */
 	  buton=!HAL_GPIO_ReadPin(BUTON_GPIO_Port, BUTON_Pin);
+	  /* adc üzerinden değer okuma */
 	  adc=HAL_ADC_GetValue(&hadc1);
+	  /* bekleme süresi */
 	  HAL_Delay(500);
     /* USER CODE END WHILE */
 
