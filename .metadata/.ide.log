@@ -12247,3 +12247,14 @@
 2021-03-06 20:36:41,611 [INFO] ApiDbMcu:458 - Load IP Config File for PDM2PCM
 2021-03-06 20:36:41,635 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
 2021-03-06 20:36:41,734 [INFO] OpenFileManager:323 - Restore cursor
+2021-03-08 13:03:59,615 [INFO] Activator:170 - 
+
+
+2021-03-08 13:03:59,618 [INFO] Activator:171 - !SESSION log4j initialized
+2021-03-08 15:58:38,833 [INFO] Activator:170 - 
+
+
+2021-03-08 15:58:38,833 [INFO] Activator:171 - !SESSION log4j initialized
+2021-03-08 15:58:53,643 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
+2021-03-08 15:58:53,651 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
+2021-03-08 15:58:53,659 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
