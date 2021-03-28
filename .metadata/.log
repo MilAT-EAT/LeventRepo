@@ -4859,3 +4859,45 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-03-11 13:05:03.006
 !MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+!SESSION 2021-03-28 16:48:13.302 -----------------------------------------------
+eclipse.buildId=Version 1.6.0
+java.version=11.0.9.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\lvvnt\Documents\GitHub\LeventRepo
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-03-28 16:48:16.745
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-03-28 16:48:16.808
+!MESSAGE Log4j initialized with config file C:\Users\lvvnt\Documents\GitHub\LeventRepo\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-03-28 16:48:19.346
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-03-28 16:48:19.918
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-03-28 16:48:55.571
+!MESSAGE Indexed 'gpioItInOut' (21 sources, 104 headers) in 3,33 sec: 7.769 declarations; 24.950 references; 2 unresolved inclusions; 271 syntax errors; 145 unresolved names (%0,44)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-03-28 16:48:57.883
+!MESSAGE Indexed 'rtc' (23 sources, 101 headers) in 2,3 sec: 7.658 declarations; 28.644 references; 2 unresolved inclusions; 40 syntax errors; 148 unresolved names (%0,41)
+
+!ENTRY org.eclipse.core.resources 4 372 2021-03-28 16:48:59.028
+!MESSAGE Project 'gpioInOutFunc' is not open.
+!STACK 0
+java.lang.Exception: Project 'gpioInOutFunc' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:148)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:796)
+	at org.eclipse.cdt.internal.core.pdom.indexer.TodoTaskUpdater$2.runInWorkspace(TodoTaskUpdater.java:199)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-03-28 16:49:01.617
+!MESSAGE Indexed 'uartKart1' (24 sources, 102 headers) in 2,64 sec: 9.036 declarations; 46.660 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (%0,26)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-03-28 16:49:03.849
+!MESSAGE Indexed 'uartKart2' (22 sources, 100 headers) in 2,22 sec: 8.132 declarations; 28.900 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (%0,4)
