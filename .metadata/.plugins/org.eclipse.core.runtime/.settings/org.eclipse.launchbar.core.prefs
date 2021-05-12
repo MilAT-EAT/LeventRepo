@@ -9,5 +9,9 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:f103rbFlashDemo\ Debug/activeLa
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:f103rbFlashDemo\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:f103rbFunctionPin\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:f103rbFunctionPin\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:f103rbI2C\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:f103rbI2C\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:f103rbTogglePin/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:f103rbTogglePin/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:f103rbadc\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:f103rbadc\ Debug/activeLaunchTarget=null\:---
