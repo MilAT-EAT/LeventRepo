@@ -1,7 +1,0 @@
-23:07:37 **** Clean-only build of configuration Debug for project g071rbAdcDmaPwm ****
-make -j16 clean 
-rm -rf *
- 
-
-23:07:37 Build Finished. 0 errors, 0 warnings. (took 180ms)
-
